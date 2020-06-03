@@ -1,33 +1,42 @@
-/*--- Name: EniCode/Vesion: 0.0.1a/Authors: AlexanderDV/Description: Properties EniCode .js. ---*/
+/*--- Name: EniCode/Vesion: 0.0.2a/Authors: AlexanderDV/Description: Properties EniCode .js. ---*/
 //Properties
 var props	=	{}
 props.syntax	=	{
 	offset_	:	"\t",
 	newLine_	:	"\n",
 	ekran_	:	"\\",
+
 	to_	:	"~",
 	of_	:	".",
 	in_	:	"/",
-	type_	:	":",
+	at_	:	":",
+
 	quotes_	:	"\"",
 	regexp_	:	"/",
 	regexps	:	{
 		flags	:	{
 			global	:	"g",
+			multiline	:	"m",
 			ignoreCase	:	"i"
 		},
 	},
 
 	multiline	:	{
+		start	:	"(",
+		end	:	")",
+	},
+	type	:	{
+		start	:	"<",
+		end	:	">",
+	},
+	set	:	{
 		start	:	"{",
 		end	:	"}"
 	},
-	array	:	{
-		start	:	"(",
-		end	:	")"
+	index	:	{
+		start	:	"[",
+		end	:	"]"
 	},
-
-	in_	:	"in",
 
 	operators	:	{
 		incr	:	"++",
