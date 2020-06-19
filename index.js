@@ -1,4 +1,3 @@
-//--- Name: EniCode/Vesion: 0.0.1a/Authors: AlexanderDV/Description: Main EniCode .js. ---
 var programInfo={
 	Name : "EniCode",
 	Version : "0.0.1a",
